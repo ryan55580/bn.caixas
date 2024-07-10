@@ -1,37 +1,113 @@
 /* geral */
-
 .site {
-    width: 1720px;
-    max-width: 100%;
-    height: 120px;
-    display: flex;
+    width: 100%;
+    max-width: 1200px;
+}
+ 
+hr {
+    width: 80px;
+    height: 3px;
+    background: black;
+    border: none;
+}
+ 
+h2{
+    line-height: 70px;
+    font-size: 35pt;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+ 
+}
+ 
+/* ESPECIFICO */
+header {
+    width: 100%;
 }
 
-.cabecalho {
+header nav ul li a:hover {
+    color: #473724;
+}
+ 
+header .site {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto; /*1° valor (superior e inferior) 2° valor (esquerda e direita)*/
+}
+ 
+header img {
+    width: 126px;
+    height: 100px;
+    margin: 5px 0;
+}
+ 
+header ul {
+    display: flex;
+}
+ 
+header ul li {
+    font-size: 20pt;
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase; /*todas as letras MAIUSCULAS*/
+}
+ 
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+ 
+header button i{
+    text-decoration: none;
+    font-size: 40px;
+}
+ 
+.banner img {
+    min-width: 100%;
+    min-height: 620px;
+    background: #947044;
+}
+
+/* Início Sobre */
+
+
+
+.sobre{
     width: 100%;
-    height: 120px;
-    max-height: 100%;
-    padding: 0px;
+    height: 730px;
+    background-color: #473724;
+}
+
+.sobre h2{
+    line-height: 70px;
+    font-size: 35pt;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: #947044;
+}
+ 
+.sobre .site{
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    height: 100%;
+    align-items: center; /*alinhamento vertical*/
 }
-
-.cabecalho ul {
-    display: flex;
+ 
+.sobre img{
+    height: 100%;
+    width: 50%;
+    background: #b79164
 }
-
-.cabecalho ul li {
-    font-size: 20pt;
-    padding-left: 10px;
-    text-transform: uppercase;
+ 
+.sobre p{
+    margin: 50px;
+    font-size: 18pt;
+    line-height: 25px;
+    letter-spacing: 2px; /*Espaçamento entre as letras*/
+    text-align: justify;
+    color: white;
 }
-
-.cabecalho ul li a {
-    text-decoration: none;
-}
-
-.cabecalho nav {
-    margin: 0 auto;
-    align-items: center;
-    text-align: center;
-}
+ 
