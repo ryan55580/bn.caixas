@@ -11,14 +11,7 @@ hr {
     border: none;
 }
  
-h2{
-    line-height: 70px;
-    font-size: 35pt;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
- 
-}
+
  
 /* ESPECIFICO */
 header {
@@ -58,7 +51,7 @@ header ul li a {
     color: black;
 }
  
-header button i{
+header button {
     text-decoration: none;
     font-size: 40px;
 }
@@ -111,3 +104,67 @@ header button i{
     color: white;
 }
  
+/* INICIO SERVIÇOS */
+
+.servico h2{
+    line-height: 70px;
+    font-size: 35pt;
+    text-transform: uppercase;
+    font-weight: bold;
+ 
+}
+
+.servico img{
+    width: 50%;
+    height: 100%;
+    background: #b79164
+}
+
+.servico {
+    padding: 30px;
+}
+
+.servico .site{
+    margin: 0px auto;
+    
+}
+
+.conteudoTotal {
+    display: flex;
+
+}
+ 
+.servico .site .conteudoServico{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.servico .site .conteudoServico .itemServico{
+    width: 10px;
+} 
+ 
+.servico .site .conteudoServico  .itemServico div{
+    display: flex;
+    margin: 15px 0;
+}
+
+.servico .conteudoServico {
+    border: 4px solid black;
+    border-radius: 4px;
+}
+
+.servico h3{
+    font-size: 21pt;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.servico p{
+    margin: 25px;
+    font-size: 13pt;
+    line-height: 25px;
+    letter-spacing: 2px; /*Espaçamento entre as letras*/
+    text-align: center;
+}
+
