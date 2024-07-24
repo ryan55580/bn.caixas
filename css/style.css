@@ -11,13 +11,13 @@ hr {
     border: none;
 }
  
-
+ 
  
 /* ESPECIFICO */
 header {
     width: 100%;
 }
-
+ 
 header nav ul li a:hover {
     color: #473724;
 }
@@ -62,16 +62,21 @@ header button {
     background: #947044;
 }
 
+/* inicio carrosel logos */
+
+
+ 
+ 
 /* Início Sobre */
-
-
-
+ 
+ 
+ 
 .sobre{
     width: 100%;
     height: 730px;
     background-color: #473724;
 }
-
+ 
 .sobre h2{
     line-height: 70px;
     font-size: 35pt;
@@ -105,66 +110,93 @@ header button {
 }
  
 /* INICIO SERVIÇOS */
-
-.servico h2{
+ 
+.servico .site h2{
     line-height: 70px;
     font-size: 35pt;
     text-transform: uppercase;
     font-weight: bold;
  
 }
-
+ 
 .servico img{
-    width: 50%;
-    height: 100%;
-    background: #b79164
+    width: 374px;
+    height: 550px;
+    background: #b79164;
+    /* margin-left: -61px; */
 }
 
+ 
 .servico {
-    padding: 30px;
+    padding: 62px;
 }
-
+ 
 .servico .site{
     margin: 0px auto;
-    
+   
 }
-
+ 
 .conteudoTotal {
     display: flex;
-
+ 
 }
  
 .servico .site .conteudoServico{
     display: flex;
     justify-content: space-between;
+    height: 371px;
+    margin-top: 91px;
+    margin-right: -50px;
+    width: 795px;
+    z-index: 2;
+    background-color: white;
 }
  
 .servico .site .conteudoServico .itemServico{
-    width: 10px;
-} 
+    width: 300px;
+   
+}
  
 .servico .site .conteudoServico  .itemServico div{
     display: flex;
     margin: 15px 0;
 }
-
+ 
 .servico .conteudoServico {
     border: 4px solid black;
     border-radius: 4px;
 }
-
+ 
 .servico h3{
-    font-size: 21pt;
+    font-size: 18pt;
     text-align: center;
     font-weight: bold;
     margin-top: 20px;
 }
-
+ 
 .servico p{
     margin: 25px;
-    font-size: 13pt;
-    line-height: 25px;
-    letter-spacing: 2px; /*Espaçamento entre as letras*/
-    text-align: center;
+    font-size: 14pt;
+    text-align: justify;
+ 
+}
+ 
+.servico i {
+    font-size: 61px;
+    color: #A88554;
+    margin-top: 21px;
+    margin-left: 94px;
 }
 
+/* personalizaçao */
+
+.personalizacao .site {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.personalizacao .site div {
+    background-color: #473724;
+    width: 100%;
+    height: 620px;
+}
